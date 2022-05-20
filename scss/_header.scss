@@ -4,41 +4,38 @@
     flex-direction: row;
     background-image: url(../../asset/imagenes/fondo.jpg);
     background-size: cover;
-    border-radius: 20px;
-.main-logo {
+    border-radius: 0 0 20px 20px;
+    .main-logo {
     display: flex;
     flex-direction: row;
     }
     
-.main-nav {
+    .main-nav {
     position: static;
     margin-left: 0;
     flex-basis: 70%;
     height: 100%;
     text-align: end;
-.nav-links {
-    margin: 10px;
-    background-color: red;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: transparent;
-.link-item {
-    display: inline-block;
-    margin-top: 0;
-    margin-right: 2rem;
-    padding: 10px;
-    color: black;
-    background-color: aliceblue; 
-    border-radius: 30px;
-    
+    .nav-links {
+        margin: 10px;
         
-            }
-        
-        
-}}
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+        .link-item {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 2rem;
+        padding: 10px;
+        color: black;
+        background-color: aliceblue; 
+        border-radius: 30px;
+        }       
+    }
+}
     .button-menu {
         display: none;
     }
@@ -62,12 +59,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(158, 0, 0);
+    
         .main-logo {
         /* margin-top: 100px; */
+        width: 60%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         color: black;
         font-size: 1rem;
         text-decoration: none;
@@ -76,10 +74,11 @@
             }
             .main-text{
                 /* text-shadow: 2px 2px 2px yellow; */
+                margin: auto;
                 padding: 20px;
                 border-radius:30px ;
                 background-color: aliceblue; 
-                
+                text-align: center;
                 font-size: larger;
             }
         }
@@ -89,7 +88,7 @@
             left: 0;
             height: 100vh;
             width: 100%;
-            margin-left: -100%;
+            margin-left: -110%;
             transition: all 0.2s linear;
             background-color: transparent;
             z-index: 100;
@@ -98,6 +97,7 @@
                 margin-top: 0;
             }
             .nav-links {
+                margin: auto;
                 background-color: black;
                 display: flex;
                 flex-direction: column;

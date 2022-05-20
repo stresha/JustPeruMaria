@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main-header {
   display: flex;
   flex-direction: row;
   background-image: url(../../asset/imagenes/fondo.jpg);
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
 }
 .main-header .main-logo {
   display: flex;
@@ -18,7 +24,6 @@
 }
 .main-header .main-nav .nav-links {
   margin: 10px;
-  background-color: red;
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
@@ -55,13 +60,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(158, 0, 0);
   }
   .main-header .main-logo {
     /* margin-top: 100px; */
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     color: black;
     font-size: 1rem;
     text-decoration: none;
@@ -71,9 +76,11 @@
   }
   .main-header .main-logo .main-text {
     /* text-shadow: 2px 2px 2px yellow; */
+    margin: auto;
     padding: 20px;
     border-radius: 30px;
     background-color: aliceblue;
+    text-align: center;
     font-size: larger;
   }
   .main-header .main-nav {
@@ -82,7 +89,7 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    margin-left: -100%;
+    margin-left: -110%;
     transition: all 0.2s linear;
     background-color: transparent;
     z-index: 100;
@@ -92,6 +99,7 @@
     margin-top: 0;
   }
   .main-header .main-nav .nav-links {
+    margin: auto;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -164,11 +172,11 @@ a {
 }
 
 .main-trabaja {
+  margin: 20px auto;
   border: #333c87 5px solid;
   border-radius: 30px;
   width: 90%;
   padding: 30px;
-  margin: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -201,6 +209,7 @@ a {
 
 .filtros-text {
   text-align: center;
+  margin: auto;
 }
 
 .main-contacto {
@@ -211,10 +220,17 @@ a {
   margin-top: 10px;
 }
 
-.filtros_color {
+.filtros_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.filtros_container .filtros_color {
+  margin: 20px auto;
   text-align-last: center;
   padding: 9px;
-  width: 400px;
+  width: 50%;
   border-radius: 1px;
   border: 1px solid #3c09b4;
   font-weight: 600;
@@ -307,9 +323,10 @@ a {
   }
 }
 footer {
+  width: 100%;
   margin-top: 50px;
-  border: blue 5px solid;
-  border-radius: 30px;
+  border-top: blue 5px solid;
+  border-radius: 30px 30px 0 0;
   background-image: url(../../asset/imagenes/fondo.jpg);
   background-size: cover;
 }

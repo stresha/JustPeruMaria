@@ -3,11 +3,12 @@
     text-decoration: none;
   }
   .main-trabaja {
+    margin: 20px auto;
     border: #333c87 5px solid;
     border-radius: 30px;
     width: 90%;
     padding: 30px;
-    margin: 20px;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,7 +42,7 @@
   
 .filtros-text {
   text-align: center;
-  
+  margin: auto;
   
 }
 .main-contacto {
@@ -55,17 +56,25 @@
  
   
 }
-.filtros_color {
-// margin-left: 430px;
-text-align-last: center;
-  padding: 9px;
-  width:400px;
-  border-radius: 1px;
-  border: 1px solid #3c09b4;
-  font-weight: 600;
-  color: #3c09b4;
-  font-size: 16px;
+.filtros_container{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .filtros_color {
+    margin: 20px auto;
+    text-align-last: center;
+    padding: 9px;
+    width: 50%;
+    border-radius: 1px;
+    border: 1px solid #3c09b4;
+    font-weight: 600;
+    color: #3c09b4;
+    font-size: 16px;
+  }
 }
+
 .main-contacto:hover {
   background-color: #333c87 ;
 }

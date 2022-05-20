@@ -71,6 +71,9 @@ text-align-last: center;
 }
   @media screen and (max-width: 768px) {
     .main-trabaja {
+      height: 95% ;
+  width:80% ;
+      margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -18,7 +18,7 @@ https://github.com/stresha/JustPeruMaria/
 *DEPENDENCIAS:
 - SASS 
 para instalar en la terminar ingresar " npm install sass "
-para correrlo  en la terminal ingresar " run compile:sass "
+para correrlo  en la terminal ingresar " npm run compile:sass "
 
 *autores
 -Dabrowski Yanina

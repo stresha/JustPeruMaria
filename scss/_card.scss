@@ -30,7 +30,8 @@
     }
   @media screen and (max-width: 768px) {
   .contenedor_productos {
-    
+    width:70%;
+    height: 70%;
     margin: auto;
     font-family: 'Fredoka', sans-serif;
     font-size: large;
@@ -39,4 +40,14 @@
     grid-template-rows: repeat(auto,1fr);
     grid-gap: 20px;  
     text-align: center;
-  }}
+    
+  }
+
+.card{
+  height: 95% ;
+  width:100% ;
+    text-align: center;
+}}
+
+
+

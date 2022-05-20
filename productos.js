@@ -1,0 +1,128 @@
+const productosVigentes =
+
+
+[
+    {"id" : 1, 
+    "nombre": " Aceite de baño de equinacea", 
+    "img": "./asset/imagenes/Productos/Aceite_de_baño_equinacea.png", 
+    "description": "Eleva tus defensas.",
+    "description2":"Perfecto como prevención.",
+    "description3": "También puede utilizarse después de un proceso viral como gripe o tos para elevar defensas.", 
+    "category": "Aromaterapia"},
+    
+    {"id" : 2, 
+    "nombre": "Aceite de baño de melissa ", 
+    "img": "./asset/imagenes/Productos/Aceite_de_baño_de_melissa.png", 
+    "description": "Ideal para relajar y ayudar a conciliar el sueño con facilidad.",
+    "description2": "Aplica un poquito sobre la piel  húmeda en el momento del baño.",
+    "description3": "Puede utilizarse en bebés, niños y adultos.", 
+    "category": "Aromaterapia"},
+    
+    {"id" : 3, 
+    "nombre": "Aceite de eucalipto", 
+    "img": "./asset/imagenes/Productos/Aceite_de_eucalipto.png", 
+    "description": "El placer de respirar libremente.",
+    "description2":  "Alivia gripe, congestión nasal y alergias.",
+    "description3": "Ideal para utilizar en difusor de aromaterapia.",  
+    "category": "Aromaterapia"},
+
+    {"id" : 4, 
+    "nombre": "Aceite de lavanda", 
+    "img": "./asset/imagenes/Productos/Aceite_de_lavanda.png", 
+    "description": "Aplica una gotita sobre la nuca para relajar y ayudar a conciliar el sueño con facilidad.",
+    "description2": "",
+    "description3": "", 
+    "category": "Aromaterapia"},
+
+    {"id" : 5, 
+    "nombre": "Aceite de naranja", 
+    "img": "./asset/imagenes/Productos/Aceite_de_naranja.png", 
+    "description": "Equilibrate de forma natural.Utiliza una gotita en caso de berrinches en niños o mal humor/enojo en adultos.", 
+    "description2": "",
+    "description3": "", 
+    "category": "Aromaterapia"},
+
+    {"id" : 6, 
+    "nombre": "Aceite esencial de manzanilla", 
+    "img": "./asset/imagenes/Productos/Aceite_esencial_de_manzanilla.png", 
+    "description": "Alivia náuseas o dolor de estómago.",
+    "description2":  "Aplicar una gotita sobre el vientre y realizar un masaje en sentido anti horario.", 
+    "description3": "", 
+    "category": "Aromaterapia"},
+    
+    {"id" : 7, 
+    "nombre": "Balsamo de cuerpo", 
+    "img": "./asset/imagenes/Productos/Balsamo_de_cuerpo.png", 
+    "description": "Aplícalo en caso de golpes, chichones, moretones o picaduras de insectos.",
+    "description2": " Sus componentes activan la circulación y resultan el aliado ideal en nuestro botiquín de primeros auxilios.", 
+    "description3": "", 
+    "category": "Botiquín de primeros auxilios"},
+    
+    {"id" : 8, 
+    "nombre" : "Blend 3 mentas",
+    "img": "./asset/imagenes/Productos/Blend_3_mentas.png", 
+    "description": "Potencia atención y concentración, utiliza 01 gotita por vez de uso",
+    "description2": "Pueden disfrutar de sus beneficios niños y adolescentes en edad escolar y también adultos.", 
+    "description3": "",
+    
+    "category": "Aromaterapia"},
+    
+    {"id" : 9, 
+    "nombre": "Bruma aromablends", 
+    "img": "./asset/imagenes/Productos/Bruma_aromablends.png", 
+    "description": "Base sin aroma, ideal para utilizar junto a tus aceites esenciales favoritos en formato perfume",
+    "description2": "Puedes aplicarlo sobre el ambiente, ropa o piel.",
+    "description3": "", 
+    "category": "Aromaterapia"},
+    
+    {"id" : 10,
+     "nombre": "Crema de calendula",
+     "img": "./asset/imagenes/Productos/Crema_de_calendula.png", 
+     "description": "Regeneradora natural de piel. Ideal en caso de cicatrices, estrías o marquitas.",
+     "description2": "Puedes aplicar un poquito sobre la zona 03 veces al día",
+    "description3": "",  
+     "category": "Cremas "},
+    
+    {"id" : 11, 
+    "nombre": "Crema de lavanda", 
+    "img": "./asset/imagenes/Productos/Crema_de_lavanda.png", 
+    "description": "Propiedades físicas y emocionales para toda la familia.",
+    "description2": "Ayuda a relajar y conciliar el sueño con facilidad.",
+    "description3": "Alivia afecciones en la piel como eczemas, dermatitis, quemaduras, etc.", 
+    "category": "Cremas "},
+    
+    {"id" : 12, 
+    "nombre": "Crema de tomillo", 
+    "img": "./asset/imagenes/Productos/Crema_de_tomillo.png", 
+    "description": "Alivia tos y dolor de garganta.",
+    "description2": "Aplica un poquito del tamaño de una lenteja sobre planta de los pies, pecho o espalda antes de descansar.",
+    "description3": "", 
+    "category": "Cremas "},
+    
+    {"id" : 13, 
+    "nombre": "Espuma de baño leche, miel y arroz", 
+    "img": "./asset/imagenes/Productos/Espuma_de_baño_de_leche_miel_arroz.png", 
+    "description": "Puede utilizarse por toda la familia: bebés, niños y adultos para humectar la piel.", 
+    "description2": "",
+    "description3": "", 
+    "category": "baño"},
+    
+    {"id" : 14, 
+    "nombre": "Loción cremosa aromablends",
+    "img": "./asset/imagenes/Productos/Loción_cremosa_aromablends.png", 
+    "description": "Base sin aroma ideal para utilizar junto a tus aceites esenciales favoritos y aplicar sobre la piel en formato masaje.", 
+    "description2": "",
+    "description3": "", 
+    "category": "Aromaterapia"},
+    
+    {"id" : 15, 
+    "nombre": "Spray eucasol",
+    "img": "./asset/imagenes/Productos/Spray_eucasol.png", 
+    "description": "Spray a base de eucalipto, ideal para aliviar gripe, congestión nasal o moquitos",
+    "description2": "Aplica un push al medio de la habitación para que el aroma se esparza y puedas disfrutar de sus beneficios.", 
+    "description3": "",
+    "category": "Botiquín de primeros auxilios"}
+
+
+
+]

@@ -37,8 +37,8 @@ const productosVigentes =
     {"id" : 5, 
     "nombre": "Aceite de naranja", 
     "img": "./asset/imagenes/Productos/Aceite_de_naranja.png", 
-    "description": "Equilibrate de forma natural.Utiliza una gotita en caso de berrinches en niños o mal humor/enojo en adultos.", 
-    "description2": "",
+    "description": "Equilibrate de forma natural.", 
+    "description2": "Utiliza una gotita en caso de berrinches en niños o mal humor/enojo en adultos.",
     "description3": "", 
     "category": "Aromaterapia"},
 

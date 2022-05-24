@@ -54,7 +54,7 @@ const productosVigentes =
     "nombre": "Balsamo de cuerpo", 
     "img": "./asset/imagenes/Productos/Balsamo_de_cuerpo.png", 
     "description": "Aplícalo en caso de golpes, chichones, moretones o picaduras de insectos.",
-    "description2": " Sus componentes activan la circulación y resultan el aliado ideal en nuestro botiquín de primeros auxilios.", 
+    "description2": " Sus componentes activan la circulación y resultan los aliados ideales en nuestro botiquín de primeros auxilios.", 
     "description3": "", 
     "category": "Botiquín de primeros auxilios"},
     

@@ -288,11 +288,10 @@ a {
 
 .card {
   padding: 10px;
-  background-image: url(../../asset/imagenes/fondo2.webp);
-  background-size: cover;
+  background-color: #fff;
   height: 450px;
   width: 310px;
-  border: blue 5px solid;
+  border: #fefe5d 5px solid;
   border-radius: 20px;
 }
 .card .card-title {

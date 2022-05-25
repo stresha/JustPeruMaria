@@ -1,55 +1,47 @@
 .contenedor_productos {
-    padding: 10px;
-    font-family: 'Domine', serif;
+  padding: 10px;
+  font-family: "Domine", serif;
+  font-size: large;
+
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 80px;
+  text-align: center;
+  margin: 80px;
+}
+
+.card {
+  padding: 10px;
+  background-color: #fff;
+  height: 450px;
+  width: 310px;
+  border: #fefe5d 5px solid;
+  border-radius: 20px;
+  .card-title {
+    font-weight: 900;
+  }
+}
+.hola {
+  border-radius: 20px;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .contenedor_productos {
+    width: 70%;
+    height: 70%;
+    margin: 10px;
+    font-family: "Fredoka", sans-serif;
     font-size: large;
-    
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-gap: 80px;  
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 20px;
     text-align: center;
-   margin: 80px;
-    
   }
 
   .card {
-    padding: 10px;
-    background-image: url(../../asset/imagenes/fondo2.webp);
-    background-size: cover;
-    height: 450px ;
-    width:310px ;
-    border: blue 5px solid;
-    border-radius: 20px;
-    .card-title {
-      font-weight: 900;
-     
-    }   
-  }
-  .hola{
-    border-radius: 20px;
-    padding: 20px;
-    }
-  @media screen and (max-width: 768px) {
-  .contenedor_productos {
-    width:70%;
-    height: 70%;
-    margin: 10px;
-    font-family: 'Fredoka', sans-serif;
-    font-size: large;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(auto,1fr);
-    grid-gap: 20px;  
+    height: 100%;
+    width: 100%;
     text-align: center;
-
-    
-    
   }
-
-.card{
-  height: 100% ;
-  width:100% ;
-    text-align: center;
-}}
-
-
-
+}

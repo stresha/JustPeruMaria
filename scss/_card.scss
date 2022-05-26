@@ -29,6 +29,7 @@
 }
 @media screen and (max-width: 768px) {
   .contenedor_productos {
+    
     width: 70%;
     height: 70%;
     margin: 10px;
@@ -42,9 +43,10 @@
   }
 
   .card {
+    
     height: 100%;
     width: 100%;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 50px;
   }
 }

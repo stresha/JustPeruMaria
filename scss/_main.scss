@@ -2,8 +2,10 @@
    a {
     text-decoration: none;
   }
+  
   .main-trabaja {
-    margin-left:30px ;
+    padding: 10px;
+    margin: auto;
     border: #333c87 5px solid;
     border-radius: 30px;
     width: 90%;
@@ -82,8 +84,7 @@
     .main-trabaja {
       height: 95% ;
       width:80% ;
-      margin: 50px;
-      margin-left: 40px;
+      margin: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;

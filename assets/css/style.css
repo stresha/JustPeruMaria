@@ -248,7 +248,8 @@ a {
   .main-trabaja {
     height: 95%;
     width: 80%;
-    margin: 20px;
+    margin: 50px;
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -286,11 +287,15 @@ a {
   margin: 80px;
 }
 
+.card-texto {
+  padding: 3px;
+}
+
 .card {
   padding: 10px;
   background-color: #fff;
   height: 450px;
-  width: 310px;
+  width: 320px;
   border: #fefe5d 5px solid;
   border-radius: 20px;
 }

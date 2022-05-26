@@ -42,9 +42,9 @@ function mostrarProductos(productosVigentes) {
                           <div >
                             <span class="card-title">${nombre}</span>
                             <img  class="hola " src=${img}>
-                            <p> ${description}</p>
-                            <p> ${description2}</p>
-                            <p> ${description3}</p>
+                            <p class="card-texto"> ${description}</p>
+                            <p class="card-texto"> ${description2}</p>
+                            <p class="card-texto"> ${description3}</p>
                              
                            </div>
                       </div> `

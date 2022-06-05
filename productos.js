@@ -4,7 +4,7 @@ const productosVigentes =
 [
     {"id" : 1, 
     "nombre": " Aceite de baño de equinacea", 
-    "img": "./asset/imagenes/Productos/Aceite_de_baño_equinacea.png", 
+    "img": "./asset/imagenes/Productos/Aceite_de_equinacea.png", 
     "description": "Eleva tus defensas.",
     "description2":"Perfecto como prevención.",
     "description3": "También puede utilizarse después de un proceso viral como gripe o tos para elevar defensas.", 
@@ -12,7 +12,7 @@ const productosVigentes =
     
     {"id" : 2, 
     "nombre": "Aceite de baño de melissa ", 
-    "img": "./asset/imagenes/Productos/Aceite_de_baño_de_melissa.png", 
+    "img": "./asset/imagenes/Productos/Aceite_de_melissa.png", 
     "description": "Ideal para relajar y ayudar a conciliar el sueño con facilidad.",
     "description2": "Aplica un poquito sobre la piel  húmeda en el momento del baño.",
     "description3": "Puede utilizarse en bebés, niños y adultos.", 
@@ -101,7 +101,7 @@ const productosVigentes =
     
     {"id" : 13, 
     "nombre": "Espuma de baño leche, miel y arroz", 
-    "img": "./asset/imagenes/Productos/Espuma_de_baño_de_leche_miel_arroz.png", 
+    "img": "./asset/imagenes/Productos/Espuma_de_leche_miel_arroz.png", 
     "description": "Puede utilizarse por toda la familia: bebés, niños y adultos para humectar la piel.", 
     "description2": "",
     "description3": "", 
@@ -109,7 +109,7 @@ const productosVigentes =
     
     {"id" : 14, 
     "nombre": "Loción cremosa aromablends",
-    "img": "./asset/imagenes/Productos/Loción_cremosa_aromablends.png", 
+    "img": "./asset/imagenes/Productos/cremosa_aromablends.png", 
     "description": "Base sin aroma ideal para utilizar junto a tus aceites esenciales favoritos y aplicar sobre la piel en formato masaje.", 
     "description2": "",
     "description3": "", 
